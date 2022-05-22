@@ -377,7 +377,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">1</a></span>
+    <span class="name">Categories</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">Tags</span>
+</div>
 
 
                     </div>
@@ -397,7 +407,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">1</a></span>
+    <span class="name">Categories</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">Tags</span>
+</div>
 
 
                                 </div>
@@ -539,7 +559,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -581,7 +601,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Markdown","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -605,7 +625,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Typora","Markdown"]
             }
         ],
         yAxis: [
@@ -618,7 +638,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -786,6 +806,18 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;Other Skills</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/Typora/">
+                <span class="chip center-align waves-effect waves-light chip-default">Typora</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Markdown/">
+                <span class="chip center-align waves-effect waves-light chip-default">Markdown</span>
+            </a>
+            
             
         </div>
     </div>
